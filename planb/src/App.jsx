@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import NavBar from "./components/NavBar";
-
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes/Routes";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <AppRoutes />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
