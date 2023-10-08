@@ -7,6 +7,11 @@
     width: 95%;
     height: 80px;
     border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
 }
 
 .NavBarLogo {
@@ -41,4 +46,81 @@
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
+}
+
+.navLinksMobile {
+    display: none;
+}
+
+.MenuIcons {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .NavBarItems {
+        z-index: 99;
+    }
+
+    .NavBarMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: #fff;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        transition: 0.3s ease-in-out;
+        border-radius: 13px;
+    }
+
+    .NavBarMenu.active {
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.3s ease-in-out;
+    }
+
+    .navLinks {
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+
+    .navLinks:hover {
+        background: purple;
+        transition: none;
+    }
+
+    .navLinksMobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 4px;
+        width: 80%;
+        background-color: purple;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .MenuIcons {
+        display: block;
+        cursor: pointer;
+    }
+
+    .MenuIcons i {
+        font-size: 1.2rem;
+        color: #222;
+    }
+
 }
