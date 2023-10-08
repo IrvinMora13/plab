@@ -1,15 +1,15 @@
 import "./hero.css";
 
-function Hero() {
+function Hero(props) {
     return (
         <>
-            <div className="hero">
-                <img alt="HeroImg" src="https://i.ytimg.com/vi/G5R-Xl5yZZY/maxresdefault.jpg" />
+            <div className={props.cName}>
+                <img alt="HeroImg" src={props.heroImg} />
                 <div className="heroText">
-                    <h1>Facultad de ingenieria</h1>
-                    <p>Eventos y carreras </p>
-                    <a href="/">
-                        Conoce tu futura carrera
+                    <h1>{props.title}</h1>
+                    <p>{props.text}</p>
+                    <a href={props.url} className={props.btnClass}>
+                        {props.buttonText}
                     </a>
                 </div>
             </div>

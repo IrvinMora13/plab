@@ -5,7 +5,15 @@ function Home() {
     return (
         <>
             <NavBar />
-            <Hero />
+            <Hero
+                cName="hero"
+                heroImg="https://i.ytimg.com/vi/G5R-Xl5yZZY/maxresdefault.jpg"
+                title="Facultad de ingenieria"
+                text="Informacion sobre la facultad"
+                buttonText="Eventos y carreras"
+                url="/"
+                btnClass="show"
+            />
         </>
     )
 }
