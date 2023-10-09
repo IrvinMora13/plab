@@ -1,5 +1,6 @@
 import NavBar from "../../components/NavBar";
 import Hero from "../../components/Hero";
+import Footer from "../../components/Footer"
 import EventHome from "../../components/EventsHome"
 import imgFac from "../../assets/9.jpg"
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
                 btnClass="show"
             />
             <EventHome />
+            <Footer />
         </>
     )
 }

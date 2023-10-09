@@ -2,6 +2,7 @@ import NavBar from "../../components/NavBar";
 import Hero from "../../components/Hero";
 import AboutImg from "../../assets/9.jpg"
 import CarrersOpt from "../../components/CarrersOpt"
+import Footer from "../../components/Footer"
 function Carrers() {
     return (
         <>
@@ -13,6 +14,7 @@ function Carrers() {
                 btnClass="hide"
             />
             <CarrersOpt />
+            <Footer />
         </>
     )
 }
