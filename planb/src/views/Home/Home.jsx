@@ -1,6 +1,6 @@
 import NavBar from "../../components/NavBar";
 import Hero from "../../components/Hero";
-
+import EventHome from "../../components/EventsHome"
 function Home() {
     return (
         <>
@@ -14,6 +14,7 @@ function Home() {
                 url="/"
                 btnClass="show"
             />
+            <EventHome />
         </>
     )
 }
