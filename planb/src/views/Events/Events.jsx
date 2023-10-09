@@ -2,6 +2,7 @@ import NavBar from "../../components/NavBar";
 import Hero from "../../components/Hero";
 import AboutImg from "../../assets/9.jpg"
 import Footer from "../../components/Footer"
+import Event from "../../components/Event"
 
 function Events() {
     return (
@@ -13,6 +14,7 @@ function Events() {
                 title="Eventos"
                 btnClass="hide"
             />
+            <Event />
             <Footer />
         </>
     )
