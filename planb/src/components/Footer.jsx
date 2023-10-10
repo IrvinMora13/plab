@@ -1,11 +1,15 @@
 import "./footer.css"
+import CarrersData from "./CarrersData"
+import d1 from "../assets/logou.jpg"
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="top">
-                <div>
-                    <h1>Logo UACH</h1>
+                <div className="logo">
+                    <CarrersData
+                        image={d1}
+                    />
                     <p>"naturam subiecit aliis"</p>
                 </div>
                 <div>

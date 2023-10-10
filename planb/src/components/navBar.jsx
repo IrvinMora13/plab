@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./navBar.css"
 import { MenuItems } from "./MenuItems";
 
+
 class NavBar extends Component {
     state = { clicked: false }
     handleClick = () => {
@@ -11,7 +12,8 @@ class NavBar extends Component {
     render() {
         return (
             <nav className="NavBarItems">
-                <h1 className="NavBarLogo">UACH</h1>
+                <h1 className="NavBarLogo">UACH   
+                </h1>
 
                 <div className="MenuIcons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>

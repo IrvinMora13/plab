@@ -1,8 +1,11 @@
 import "./carrersOpt.css"
 import CarrersData from "./CarrersData"
-import d6 from "../assets/6.jpg"
-import d7 from "../assets/7.jpg"
-import d8 from "../assets/4.jpg"
+import d6 from "../assets/igm.jpg"
+import d7 from "../assets/igg.jpg"
+import d8 from "../assets/igf.jpg"
+import d9 from "../assets/icc.jpg"
+import d10 from "../assets/itp.jpg"
+
 
 function CarrersOpt(params) {
     return (
@@ -13,29 +16,35 @@ function CarrersOpt(params) {
             <div className="carrersCards">
                 <CarrersData
                     image={d6}
-                    heading="Carrera 1"
-                    text="Opcioness"
+                    heading="Ingeniero Matemático"
+                    text="Un Ingeniero Matemático tiene entre sus herramientas una base matemática muy sólida que le permite modelar diversos fenómenos. Además cuenta con conocimientos de física, computación y metodologías industriales que le permiten analizar con rigor estricto los modelos que se usaran. El fundamento de análisis matemático, sus bases en estadística y programación le permiten abordar problemas 
+                    y retos con una base matemática más estricta que otras profesiones afines al sector. Para más información visita la página oficial https://uach.mx/pregrado/ingeniero-matematico/"
                 />
                 <CarrersData
                     image={d7}
-                    heading="Carrera 2"
-                    text="Opcioness"
+                    heading="Ingeniero geólogo"
+                    text="La carrera de Ingeniero Geólogo forma profesionistas que aplican sus conocimientos sobre los procesos naturales que han modificado al planeta tierra, 
+                    en particular su corteza, para beneficio de la sociedad. Para más información visita la página oficial https://uach.mx/pregrado/ingeniero-geologo/"
                 />
                 <CarrersData
                     image={d8}
-                    heading="Carrera 3"
-                    text="Opcioness"
+                    heading="Ingeniero Físico"
+                    text="Un Ingeniero Físico tiene entre sus herramientas una base matemática que le permite modelar diversos fenómenos y, además, cuenta con un vasto conocimiento de las leyes que rigen el comportamiento de la materia 
+                    y la energía así como su comportamiento en el espacio-tiempo. Para más información visita la página oficial https://uach.mx/pregrado/ingeniero-fisico/"
                 />
+                
             </div>
             <div className="carrersCards">
                 <CarrersData
-                    image={d6}
-                    heading="Carrera 4"
-                    text="Opcioness"
+                    image={d9}
+                    heading="Ingeniero en Ciencias de la Computación"
+                    text="La innovación tecnológica para la práctica de las ingenierías significa dar respuesta a las necesidades del mercado en el
+                     ambiente tecnológico mundial y responder a las exigencias de la globalización.
+                     Para más información visita la página oficial https://uach.mx/pregrado/ingeniero-ciencias-computacion/"
                 />
                 <CarrersData
-                    image={d7}
-                    heading="Carrera 5"
+                    image={d10}
+                    heading="Ingeniero en Tecnología de Procesos"
                     text="Opcioness"
                 />
                 <CarrersData
