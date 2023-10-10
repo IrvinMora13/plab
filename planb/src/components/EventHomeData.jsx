@@ -1,9 +1,5 @@
 import { Component } from "react";
 import "./eventsHome.css"
-import d1 from "../assets/3.jpg"
-import d2 from "../assets/4.jpg"
-import d3 from "../assets/5.jpg"
-import d4 from "../assets/6.jpg"
 
 class EventHomeData extends Component {
     render() {

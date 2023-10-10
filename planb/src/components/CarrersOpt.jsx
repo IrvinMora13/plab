@@ -5,11 +5,17 @@ import d7 from "../assets/igg.jpg"
 import d8 from "../assets/igf.jpg"
 import d9 from "../assets/icc.jpg"
 import d10 from "../assets/itp.jpg"
+import d11 from "../assets/isf.jpg"
+import d12 from "../assets/hard.jpg"
+import d13 from "../assets/imm.jpg"
+import d14 from "../assets/itopo.jpg"
+import d15 from "../assets/aero.jpg"
+import d16 from "../assets/civil.jpg"
 
 
 function CarrersOpt(params) {
     return (
-        <div className="carrers">
+        <div className="carrers"> 
             <h1>Programas educativos</h1>
             <p>La Facultad de Ingeniería tiene un fuerte enfoque en las oportunidades de investigación y desarrollo asociadas con las necesidades tecnológicas de nuestra sociedad. La Facultad mantiene un fuerte sentido de identidad y cooperación entre estudiantes, profesores y personal, y se enorgullece de sus fuertes vínculos con la industria y grupos colegiados de profesionistas de la ingeniería.
             </p>
@@ -45,40 +51,44 @@ function CarrersOpt(params) {
                 <CarrersData
                     image={d10}
                     heading="Ingeniero en Tecnología de Procesos"
+                    text="El Ingeniero en Tecnología de Procesos tiene entre sus funciones, integrar, diseñar, planear, mantener, dirigir y controlar los sistemas productivos y de servicios en las diversas industrias centrándose en tres ejes principales: 
+                    calidad, productividad y mejoramiento de la cadena de suministros.
+                    Para más información visita la página oficial https://uach.mx/pregrado/ingeniero-tecnologia-procesos/"
+                />
+                <CarrersData
+                    image={d11}
+                    heading="Ingeniero de Software"
+                    text="El Ingeniero de Software, posee un análisis y razonamiento lógico para la adecuada implementación de técnicas
+                     para el modelado, proceso y diseño de software además de trabajar en ambientes múltiples de programación como web y dispositivos móviles
+                     Para más información visita la página oficial https://uach.mx/pregrado/ingeniero-software/"
+                />
+            </div>
+            <div className="carrersCards">
+                <CarrersData
+                    image={d12}
+                    heading="Ingeniero en Hardware"
                     text="Opcioness"
                 />
                 <CarrersData
-                    image={d8}
-                    heading="Carrera 6"
+                    image={d13}
+                    heading="Ingenero en Minas y Metalurgia"
+                    text="Opcioness"
+                />
+                <CarrersData
+                    image={d14}
+                    heading="Ingeniero en Sistemas Topográficos"
                     text="Opcioness"
                 />
             </div>
             <div className="carrersCards">
                 <CarrersData
-                    image={d6}
-                    heading="Carrera 7"
+                    image={d15}
+                    heading="Ingeniero Aeroespacial"
                     text="Opcioness"
                 />
                 <CarrersData
-                    image={d7}
-                    heading="Carrera 8"
-                    text="Opcioness"
-                />
-                <CarrersData
-                    image={d8}
-                    heading="Carrera 9"
-                    text="Opcioness"
-                />
-            </div>
-            <div className="carrersCards">
-                <CarrersData
-                    image={d6}
-                    heading="Carrera 10"
-                    text="Opcioness"
-                />
-                <CarrersData
-                    image={d7}
-                    heading="Carrera 11"
+                    image={d16}
+                    heading="Ingeniero Civil"
                     text="Opcioness"
                 />
             </div>
