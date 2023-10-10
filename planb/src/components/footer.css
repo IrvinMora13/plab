@@ -3,6 +3,10 @@
     background: #000;
     color: #fff;
 }
+.logou{
+    width: 10%;
+    height: auto;
+}
 
 .top {
     display: flex;

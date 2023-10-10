@@ -1,5 +1,4 @@
 import "./footer.css"
-import CarrersData from "./CarrersData"
 import d1 from "../assets/logou.jpg"
 
 const Footer = () => {
@@ -7,9 +6,7 @@ const Footer = () => {
         <div className="footer">
             <div className="top">
                 <div className="logo">
-                    <CarrersData
-                        image={d1}
-                    />
+                    <img alt="logou" src={d1} className="logou"/>
                     <p>"naturam subiecit aliis"</p>
                 </div>
                 <div>
