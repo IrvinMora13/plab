@@ -1,8 +1,8 @@
 import NavBar from "../../components/NavBar";
 import Hero from "../../components/Hero";
-import AboutImg from "../../assets/9.jpg"
-import Footer from "../../components/Footer"
-import Event from "../../components/Event"
+import AboutImg from "../../assets/ev_fon.png";
+import Footer from "../../components/Footer";
+import Event from "../../components/Event";
 
 function Events() {
     return (

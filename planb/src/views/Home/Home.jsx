@@ -2,7 +2,7 @@ import NavBar from "../../components/NavBar";
 import Hero from "../../components/Hero";
 import Footer from "../../components/Footer"
 import EventHome from "../../components/EventsHome"
-import imgFac from "../../assets/9.jpg"
+import imgFac from "../../assets/menu.jpg"
 function Home() {
     return (
         <>

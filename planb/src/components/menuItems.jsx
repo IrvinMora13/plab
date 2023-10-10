@@ -9,18 +9,18 @@ export const MenuItems = [
         title: "Eventos",
         url: "/Eventos",
         cName: "navLinks",
-        icon: "",
+        icon: "fa-solid fa-calendar-day",
     },
     {
         title: "Carreras",
         url: "/Carreras",
         cName: "navLinks",
-        icon: "",
+        icon: "fa-solid fa-graduation-cap",
     },
     {
         title: "Contacto",
         url: "/Contactos",
         cName: "navLinks",
-        icon: "fa-solid fa-info",
+        icon: "fa-solid fa-circle-info",
     },
 ]
